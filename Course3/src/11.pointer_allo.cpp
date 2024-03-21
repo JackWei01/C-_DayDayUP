@@ -24,6 +24,7 @@ int main()
     cin >> size;
     temp_ptr = new double[size]; // 在heap堆上分配size个double类型的内存空间，返回该内存空间的地址
     cout << "地址是: " << temp_ptr << endl;
+    cout << "地址是: " << temp_ptr + 1 << endl;
     delete [] temp_ptr; // 释放内存空间
 
 
